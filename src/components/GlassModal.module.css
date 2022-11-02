@@ -1,0 +1,32 @@
+.banner{
+    background-image: url(./glassesImage/model.jpg);
+    width: 20%;
+    margin: 0 auto;
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.imgGlass{
+    width: 50%;
+    position: absolute;
+    top: 105px;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0.8;
+}
+.content{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(231, 147, 98, 0.5);
+    padding: 15px 10px;
+}
+.title{
+    color: rgb(72, 69, 233);
+    margin-bottom: 10px;
+}
+.text{
+    color: white;
+}
